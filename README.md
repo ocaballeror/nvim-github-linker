@@ -10,9 +10,10 @@ To install GithubLink, you can use your preferred plugin manager for Neovim. Her
 
 ```lua
 use {
-    "vincent178/neovim-github-linker",
+    "vincent178/nvim-github-linker",
+    cmd = "GithubLink",
     config = function()
-        require("neovim-github-linker").setup()
+        require("nvim-github-linker").setup()
     end,
 }
 ```
